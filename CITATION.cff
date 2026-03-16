@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Automated Microplastic Detection and Quantification using Deep Learning"
+abstract: "YOLOv8-nano model for automated detection, counting, and quantification of microplastic particles in holographic images. Trained on synthetic dataset generated from HMPD (15,106 patches) for water quality monitoring applications."
+authors:
+  - name: "Niloy Deb Barma"
+  - name: "Godugula Tejasi"
+version: 1.0.0
+date-released: 2026-03-09
+repository-code: "https://github.com/niloydebbarma-code/microplastic-detection"
+keywords:
+  - microplastic detection
+  - microplastic quantification
+  - particle counting
+  - automated counting
+  - YOLOv8
+  - YOLOv8-nano
+  - deep learning
+  - object detection
+  - computer vision
+  - digital holography
+  - holographic imaging
+  - water quality monitoring
+  - water pollution
+  - environmental monitoring
+  - synthetic dataset
+  - HMPD dataset
+  - image processing
+  - real-time detection
+  - SDG 6
+  - SDG 6.3
+  - clean water
+  - sanitation
+  - machine learning
+  - convolutional neural network
+  - CNN
+license: MIT
+preferred-citation:
+  type: software
+  authors:
+    - name: "Niloy Deb Barma"
+    - name: "Godugula Tejasi"
+  title: "Automated Microplastic Detection and Quantification using Deep Learning"
+  year: 2026
+  url: "https://github.com/niloydebbarma-code/microplastic-detection"
+references:
+  - type: conference-paper
+    authors:
+      - family-names: "Cacace"
+        given-names: "Teresa"
+      - family-names: "Del-Coco"
+        given-names: "Marco"
+      - family-names: "Carcagnì"
+        given-names: "Pierluigi"
+      - family-names: "Cocca"
+        given-names: "Mariacristina"
+      - family-names: "Paturzo"
+        given-names: "Melania"
+      - family-names: "Distante"
+        given-names: "Cosimo"
+    title: "HMPD: A Novel Dataset for Microplastics Classification with Digital Holography"
+    conference:
+      name: "Image Analysis and Processing – ICIAP 2023: 22nd International Conference"
+      location: "Udine, Italy"
+      date-start: "2023-09-11"
+      date-end: "2023-09-15"
+    year: 2023
+    pages: "123-133"
+    isbn: "978-3-031-43152-4"
+    doi: "10.1007/978-3-031-43153-1_11"
+    url: "https://doi.org/10.1007/978-3-031-43153-1_11"
+    publisher:
+      name: "Springer-Verlag"
+      location: "Berlin, Heidelberg"
+    notes: "Holographic Microplastic Dataset (HMPD) used in this project"

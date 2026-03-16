@@ -1,0 +1,186 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dll
+*.dylib
+.Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+.spyderproject
+.spyproject
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# YOLOv8/Deep Learning Training
+runs/
+weights/
+checkpoints/
+lightning_logs/
+
+# Trained models (ignore except the main one)
+*.pt
+!yolov8_microplastic_trained.pt
+*.pth
+
+# Model exports (ignore all export formats)
+*.onnx
+*.torchscript
+*.engine
+*.tflite
+*.mlmodel
+*.mlpackage
+*.pb
+*_saved_model/
+*.h5
+*.keras
+exports/
+
+# Datasets (ignore if extracted)
+# These folders may be created when extracting dataset zips
+HMPD/
+HMPD-Gen/
+synthetic_dataset/
+microplastic_data/
+
+# Dataset zip files (TOO LARGE for GitHub - host externally)
+HMPD-Gen.zip
+microplastic_data.zip
+
+# Media files (ignored by default, explicitly allow important ones below)
+*.jpg
+*.png
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Model Exports (Android/Mobile)
+*.tflite
+*.mlmodel
+*.coreml
+*.onnx
+*_openvino_model/
+*.bin
+*.xml
+*_ncnn_model/
+*.param
+*.pte
+exports/
+
+# Training Results (ignored by default, kept below)
+PR_curve.png
+F1_curve.png
+P_curve.png
+R_curve.png
+labels.jpg
+labels_correlogram.jpg
+*.csv
+
+# ESP32 Build Files
+esp32_code/.pio/
+esp32_code/.vscode/
+esp32_code/platformio.ini.bak
+esp32_code/build/
+esp32_code/*.bin
+esp32_code/*.elf
+
+# System
+.DS_Store
+Thumbs.db
+*.log
+*.txt.bak
+desktop.ini
+$RECYCLE.BIN/
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
+cache/
+*.cache
+
+# macOS
+__MACOSX/
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+
+# Documentation builds
+docs/_build/
+site/
+_site/
+
+# Google Colab
+*.ipynb.json
+
+# Environment files (NEVER commit secrets)
+.env
+.env.local
+secrets.py
+config_private.py
+
+# ========================================
+# IMPORTANT: Files explicitly allowed (not ignored)
+# ========================================
+# Main trained model (6MB)
+!yolov8_microplastic_trained.pt
+
+# Training visualizations
+!confusion_matrix.png
+!results.png
+
+# Example detection results (20 images)
+!test_results/
+!test_results/*.jpg
+!test_results/*.png
+
+# Documentation images
+!docs/**/*.png
+!docs/**/*.jpg
+
+# All markdown documentation
+!*.md
+!**/*.md
+
+# Text files
+.txt

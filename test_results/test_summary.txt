@@ -1,0 +1,18 @@
+YOLOv8 Microplastic Detection Test Results
+==================================================
+
+Test Images: 20 (10 positive, 10 negative)
+Confidence: 0.25
+
+Confusion Matrix:
+  TP: 10 | FP: 0
+  TN: 10 | FN: 0
+
+Metrics:
+  Accuracy:  100.0%
+  Precision: 1.00
+  Recall:    1.00
+
+Performance:
+  Avg: 52.2ms
+  FPS: 19.2
